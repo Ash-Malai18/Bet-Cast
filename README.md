@@ -1,24 +1,27 @@
-# Bet-Cast
+# Betcast
 
-**Every fan has a different RedZone.**
-
-An interactive, TV-first prototype of personalized sports coverage. A simulated AI director switches between NFL, NBA, and soccer moments based on the viewer's picks.
+The original TV-style Betcast prototype: a 90-second scripted sports viewing experience that follows three sample bets across basketball, football, and soccer.
 
 ## Features
-- 90-second scripted demo with automated game switching
-- Simulated three-leg betslip and contextual play-by-play
-- Manual channel selection, auto director, play/pause and replay
-- Optional browser text-to-speech commentary and fullscreen TV mode
 
-## Run
+- Animated sports coverage and automatic game switching
+- Sample bet progress and outcomes
+- Commentary explaining each switch, with optional browser speech
+- TV mode, replay, manual game selection, and timeline seeking
+- Responsive layout
 
-```bash
-npm install
-npm run dev
-```
+This is a fictional simulation, not live broadcast footage, live betting data, or a wagering service.
 
-Open the local address printed by Vite. To build: `npm run build`.
+## Run locally
 
-## Disclaimer
+Run `npm run dev`, then open http://localhost:3000.
 
-All sports events, wagers, scores, and outcomes are fictional. This is a concept demonstration only: no live sports broadcasts, sportsbook integrations, real-money wagering, or licensed footage.
+## Build
+
+Run `npm run build`. The static site is generated in `dist/`; no third-party packages or environment variables are required. Node.js 22 or later is recommended.
+
+## Vercel
+
+Import this GitHub repository into Vercel. The included `vercel.json` sets the build command to `npm run build` and output directory to `dist`.
+
+Recovered from the original Betcast demo created November 4, 2026. This replaces the later React recreation; that version remains in Git history.
